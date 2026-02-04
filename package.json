@@ -1,0 +1,58 @@
+{
+  "name": "beauty-generation-free",
+  "version": "1.2.6",
+  "description": "FREE AI image generation service for creating attractive people portraits. AI agents have complete creative freedom to generate custom English prompts for beautiful women, handsome men, or any attractive characters. Simple workflow: create prompt → generate → download → deliver to user within 5-10 seconds. Supports all demographics, styles, and creative concepts with no parameter restrictions.",
+  "main": "SKILL.md",
+  "keywords": [
+    "beauty-generation",
+    "free-ai-service",
+    "portrait-photography",
+    "character-design",
+    "fashion-design",
+    "ai-art",
+    "image-generation",
+    "attractive-people",
+    "handsome-men",
+    "beautiful-women",
+    "custom-prompts",
+    "english-prompts",
+    "creative-freedom",
+    "no-restrictions",
+    "fast-generation",
+    "5-second-delivery",
+    "professional-headshots",
+    "artistic-portraits",
+    "high-quality",
+    "comfyui",
+    "api-service",
+    "free-generation",
+    "no-cost-ai"
+  ],
+  "author": "DiversityFaces Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "SKILL.md",
+    "scripts/"
+  ],
+  "agentskills": {
+    "skill": "SKILL.md",
+    "category": "image-generation",
+    "tags": ["beauty", "portraits", "fashion", "attractive-people", "custom-prompts", "english-prompts", "creative-freedom", "fast-delivery"],
+    "apiRequired": true,
+    "authentication": "api-key",
+    "formatRequirements": "english-prompts-only",
+    "crossPlatform": true,
+    "unicodeSupport": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luruibu/beauty-generation"
+  },
+  "homepage": "https://gen1.diversityfaces.org",
+  "bugs": {
+    "url": "https://github.com/luruibu/beauty-generation/issues"
+  }
+}
